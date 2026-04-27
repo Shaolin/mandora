@@ -5,16 +5,19 @@
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <h1>Find Your Perfect Talent</h1>
+    <h1>Reliable Staff When You Need Them Most</h1>
 
     <p>
-      Connect with skilled professionals and organizations. We specialize in matching the right talent with the right opportunities.
+    We provide trained professionals for healthcare, hospitality, events, and cleaning — ready to step in when your business needs support.
     </p>
 
     <div class="buttons">
-      <button class="btn primary" onclick="scrollToSection('jobs')">
+      <!-- <button class="btn primary" onclick="scrollToSection('jobs')">
         Browse Openings
-      </button>
+      </button> -->
+      <button class="btn primary" onclick="document.getElementById('open-apply-form').click()">
+  Apply Now
+</button>
 
       <button class="btn secondary" onclick="scrollToSection('about')">
         Learn More
